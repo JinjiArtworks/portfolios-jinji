@@ -28,9 +28,9 @@ const Portfolio = () => {
                         </div>
                         <span className="work__category">{item.category}</span>
                         <h3 className="work__title">{item.title}</h3>
-                        <a href="" className='work__button'>
+                        {/* <a href="" className='work__button'>
                             <i className="icon-link work__button-icon"></i>
-                        </a>
+                        </a> */}
                     </div>
                 ))}
             </div>
